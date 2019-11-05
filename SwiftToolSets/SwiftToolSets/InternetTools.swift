@@ -4,7 +4,7 @@ import UIKit
 
 open class InternetTools {
     
-    public func checkIsInternetAvailable() -> Bool {
+    public static func checkIsInternetAvailable() -> Bool {
         
         do {
             let reachability = try Reachability.init()

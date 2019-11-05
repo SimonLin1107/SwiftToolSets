@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-typealias UIButtonTargetClosure = ((UIButton) -> ())?
+public typealias UIButtonTargetClosure = ((UIButton) -> ())?
 
 class UIButtonClosure: NSObject {
     let closure: UIButtonTargetClosure
@@ -27,7 +27,7 @@ extension UIButton {
         }
     }
     
-    func addTargetClosure(closure: UIButtonTargetClosure) {
+    public func addTargetClosure(closure: UIButtonTargetClosure) {
         targetClosure = closure
         addTarget(self, action: #selector(self.closureAction), for: .touchUpInside)
     }
