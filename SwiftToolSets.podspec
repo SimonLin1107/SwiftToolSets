@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name        = "SwiftToolSets"
-spec.version        = "0.0.2"
+spec.version        = "0.0.3"
 spec.swift_version    = '5.0'
 spec.summary        = "Swift Tool Sets"
 
