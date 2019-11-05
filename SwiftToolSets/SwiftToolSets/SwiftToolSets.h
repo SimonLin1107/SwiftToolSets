@@ -1,11 +1,3 @@
-//
-//  SwiftToolSets.h
-//  SwiftToolSets
-//
-//  Created by Apple on 2019/11/5.
-//  Copyright © 2019 SimonLin. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 //! Project version number for SwiftToolSets.

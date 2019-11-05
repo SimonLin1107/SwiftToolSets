@@ -1,11 +1,3 @@
-//
-//  StringTools.swift
-//  Football
-//
-//  Created by Apple on 2019/11/5.
-//  Copyright © 2019 SportsTracker. All rights reserved.
-//
-
 import Foundation
 
 open class StringTools {

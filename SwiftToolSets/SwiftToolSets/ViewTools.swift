@@ -1,11 +1,3 @@
-//
-//  ViewTools.swift
-//  TaiwanLottery
-//
-//  Created by Apple on 2019/11/5.
-//  Copyright © 2019 LotteryAnalysis. All rights reserved.
-//
-
 import Foundation
 import UIKit
 
